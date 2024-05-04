@@ -1,0 +1,18 @@
+services:
+  linux1:
+    build: linux_ssh
+    ports: 
+      - "11022:22"
+    tty: true
+    
+  linux2:
+    build: linux_ssh
+    ports: 
+      - "11122:22"
+    tty: true
+  
+  linux3:
+    build: linux_ssh
+    ports: 
+      - "11222:22"
+    tty: true

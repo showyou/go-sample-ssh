@@ -1,2 +1,3 @@
-# go-sample-ssh
-run ssh and apt command to multiple machines same time
+ここはdockerで検証用にubuntuとか立てるための場所です。
+
+
